@@ -2,14 +2,14 @@ version: 2
 sources:
 
 - name: weather_data
-  schema: s_hugo
+  schema: clear_skies
   tables:
     - name: weather_daily_raw
     - name: weather_hourly_raw
 
-- name: flights_data
-  schema: s_hugo
+- name: flights_3m
+  schema: clear_skies
   tables:
-    - name: flights
+    - name: flights_3m
     - name: airports
-    - name: regions
+    
