@@ -2,7 +2,6 @@
         SELECT faa
                , name
         	   , country
-               , region
                , city
                , lat
                , lon
