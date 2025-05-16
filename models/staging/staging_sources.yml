@@ -7,7 +7,7 @@ sources:
     - name: weather_daily_raw
     - name: weather_hourly_raw
 
-- name: flights_3m
+- name: flights_data
   schema: clear_skies
   tables:
     - name: flights_3m
